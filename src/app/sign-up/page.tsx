@@ -14,7 +14,7 @@ import {
   BookOpen
 } from "lucide-react";
 
-const RegisterPage = () => {
+const SignUpPage = () => {
   return (
     <div className="min-h-screen bg-[#F7F8FA] flex items-center justify-center p-4">
       {/* Main Container */}
@@ -35,8 +35,8 @@ const RegisterPage = () => {
                 className="drop-shadow-md"
               />
               <span className="text-2xl font-bold">
-                <span className="text-[#0E4F6F]">Schoo</span>
-                <span className="text-[#5F5B9E]">Lama</span>
+                <span className="text-[#0E4F6F]">School</span>
+                <span className="text-[#5F5B9E]">Master</span>
               </span>
             </div>
 
@@ -56,7 +56,7 @@ const RegisterPage = () => {
               </div>
               
               <h2 className="text-2xl font-bold text-gray-800 mb-2">
-                Join SchooLama Today!
+                Join SchooMaster Today!
               </h2>
               <p className="text-gray-600 max-w-sm">
                 Create your account and start managing your educational journey with our comprehensive platform.
@@ -357,4 +357,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default SignUpPage;
